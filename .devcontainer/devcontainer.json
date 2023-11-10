@@ -1,4 +1,5 @@
 {
     "name": "Nx CI Prototype",
-    "image": "mcr.microsoft.com/devcontainers/javascript-node"
+    "image": "mcr.microsoft.com/devcontainers/javascript-node",
+    "postCreateCommand": "npm install"
 }
