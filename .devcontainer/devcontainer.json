@@ -1,0 +1,4 @@
+{
+    "name": "Nx CI Prototype",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node"
+}
