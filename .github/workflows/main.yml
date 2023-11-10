@@ -19,4 +19,4 @@ jobs:
         uses: devcontainers/ci@v0.3
         with:
           # Change this to be your CI task/script
-          runCmd: npx nx affected:test
+          runCmd: npx nx affected -t test
