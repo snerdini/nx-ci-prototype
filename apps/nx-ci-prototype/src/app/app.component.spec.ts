@@ -24,4 +24,11 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance;
     expect(app.title).toEqual('nx-ci-prototype');
   });
+
+  it('should have a cloud section', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const compiled = fixture.nativeElement as HTMLElement;
+
+    expect(compiled.querySelector('#nx-cloud')).toBeTruthy();
+  });
 });

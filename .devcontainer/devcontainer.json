@@ -1,5 +1,14 @@
 {
     "name": "Nx CI Prototype",
     "image": "mcr.microsoft.com/devcontainers/javascript-node",
-    "postCreateCommand": "npm install"
+	"postCreateCommand": "npm install",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.vscode-github-actions",
+				"esbenp.prettier-vscode",
+				"nrwl.angular-console"
+			]
+		}
+	}
 }
