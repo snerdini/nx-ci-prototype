@@ -24,3 +24,8 @@ jobs:
         with:
           # Change this to be your CI task/script
           runCmd: npx nx affected -t test
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: test-artifact
+          path: package.json
