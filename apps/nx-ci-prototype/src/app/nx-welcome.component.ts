@@ -432,7 +432,7 @@ import { CommonModule } from '@angular/common';
         <div id="welcome">
           <h1>
             <span> Hello there, </span>
-            Welcome nx-ci-prototype 👋
+            Welcome nx-ci-prototype2 👋
           </h1>
         </div>
         <!--  HERO  -->
