@@ -15,7 +15,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome nx-ci-prototype'
+      'Welcome nx-ci-prototype4'
     );
   });
 
@@ -31,7 +31,7 @@ describe('AppComponent', () => {
 
     expect(compiled.querySelector('#nx-cloud')).toBeTruthy();
   });
-  
+
   it('should have a repo section', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const compiled = fixture.nativeElement as HTMLElement;
