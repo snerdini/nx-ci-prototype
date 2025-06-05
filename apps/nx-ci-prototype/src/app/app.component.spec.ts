@@ -31,7 +31,7 @@ describe('AppComponent', () => {
 
     expect(compiled.querySelector('#nx-cloud')).toBeTruthy();
   });
-  
+
   it('should have a repo section', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const compiled = fixture.nativeElement as HTMLElement;
